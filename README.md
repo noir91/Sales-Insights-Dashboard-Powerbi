@@ -9,7 +9,7 @@ To address this, the sales director decided to implement a **Power BI dashboard*
 ## **Project Planning with AIMS Grid**  
 Using the **AIMS Grid** project management tool, the team established the project's **purpose, key stakeholders, desired outcomes, and success criteria** to ensure a structured approach.  
 
-(![image](https://github.com/user-attachments/assets/1308285b-f447-4794-afe9-663b5145c5aa)
+![image](https://github.com/user-attachments/assets/1308285b-f447-4794-afe9-663b5145c5aa)
 
 
 
