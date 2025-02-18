@@ -1,40 +1,60 @@
-# Sales-Insights-Dashboard-Powerbi
-Problem statement
-AtliQ hardware is a company which delivers computer hardware & peripheral Manufacturers to his clients, which has several branches throughout India. The sales director of the company is facing a lot of issues in terms of understanding how the business is performing and what are all the problem company is facing currently as the sales are not as expected and declining gradually. And whenever he calls the regional managers to get the current status of the sales and market, as a human behaviour, these people Humans are not comfortable in consuming numbers from excel files, which is obvious reason for the frustration.
+# **AtliQ Hardware Sales Analysis Project**
 
-Solution
-Sales director of the AltiQ hardware, decided to build a PowerBI Dashboard for converting the data into visual representation to make data driven decisions. So, he hired a team of data people to complete this task.
+## **Problem Statement**  
+AtliQ Hardware, a company specializing in delivering computer hardware and peripherals to manufacturers, operates multiple branches across India. The sales director has been struggling to assess business performance due to declining sales. Whenever he reaches out to regional managers for updates, he encounters challenges—many managers find it difficult to interpret raw numerical data from Excel files. This lack of clarity contributes to frustration and hinders effective decision-making.  
 
-AIMS Grid
-By using the AIMS grid project management tool, we made sure what are the purpose, stakeholder, end result and success criteria of our project.
+## **Solution**  
+To address this, the sales director decided to implement a **Power BI dashboard** for **data-driven decision-making** through visual representation. A team of data professionals was hired to carry out this project.  
 
+## **Project Planning with AIMS Grid**  
+Using the **AIMS Grid** project management tool, the team established the project's **purpose, key stakeholders, desired outcomes, and success criteria** to ensure a structured approach.  
 
+## **Steps Followed in This Project**  
+1. **Project Planning** – Learned about the AIMS Grid methodology.  
+2. **Data Retrieval** – Used **MySQL** to extract data from the company’s database into **Power BI**.  
+3. **Data Cleaning** – Processed and refined the data using **Power Query**.  
+4. **ETL Process** – Extracted, transformed, and loaded the data for analysis.  
+5. **Measure Creation** – Developed DAX measures for business insights and applied them in Power BI.  
+6. **Currency Conversion** – Standardized transaction values by converting different currency types.  
+7. **Data Validation** – Ensured data accuracy before visualization.  
+8. **Data Modeling & Visualization** – Structured the data and created interactive reports.  
 
-Steps Followed in this project
-Learned about AIMS grid for project planning.
-Used MySQL for retrieving the data from the database into Power BI.
-Data Cleaning in power query.
-Performed ETL process (Extract Transform and Load)
-Created measure for needs and used them for creating visuals in PowerBi.
-In the currency there were two types of currencies in transactions, performed currency conversion to make all the currency type same
-Data Validation
-Data Modelling and Visualization.
-Major Changes/ Customizations Made
-1.Solved the ‘(blank)’ problem for the products section by deleting the original products table and adding the self-modified products table (where I have added the Products ranging from Prod280 to Prod339 with their product type (random type- b/w ‘Own Brand’ and ‘Distribution’). 2.Merged the original modified ‘sales_transaction’ table with the new ‘sales_transaction’ table having profit margin, cost price, etc.
+## **Major Customizations & Improvements**  
+- **Resolved the '(blank)' issue** in the products section by replacing the original products table with a **self-modified** version containing product data (Prod280 to Prod339) with assigned types (either ‘Own Brand’ or ‘Distribution’).  
+- **Merged the original and modified** `sales_transaction` tables to include key financial metrics such as **profit margin, cost price, etc.**  
 
-Insights
-In this dashboard, we can see company has generated total revenue in 4 years ₹ 985M, total profit margin ₹24.7M, Profit margin% 2.5%, Sales Qty ₹2M. in 2020 company has generated total revenue of ₹ 142M by selling a total of 350K and earned a profit of ₹ 2.1M.
-In 4 years Delhi NCR is our largest market in terms of revenue with ₹ 520M and total contribution of 52.8% with total revenue but if you look at the profit margin Delhi NCR is generating only 2.3% profit margin.
-If we check the profit margin then here In 2020 Bhubaneshwar comes into the picture which is generating the highest profit margin of 10.48%. Similarly, if we can check the Profit Contribution % by Market then here Mumbai is the largest player with 23.89% of total contribution in total profit.
-In 4 years Bengaluru generating the lowest profit margin of -20.8%.if we can check the Profit Contribution % by Market then here also Bengaluru is the Lower with -0.3% of total contribution in total profit.
-In our top 5 customers, the Electricalsara Stores is our biggest customer who has generated total ₹ 413 M revenue generated in 4 years.
-In our top 5 products,the Prod318 is our highest product has generated total ₹ 69M revenue generated in 4 years.
-In product type Distribution has generated the revenue of ₹494M and ownbrand revenue is ₹494M generated in entire 4 years.
-Revenue Trend is showing that in June 2020 revenue has been decreased drastically compared to the revenue last year and the profit margin was the least in April 2020.
-Key Learnings
-Learned about what real business data sets look like.
-Learned about how to write some major analysis queries in MySQL.
-how to connect the database’s tables to Power Bi and how to clean & modify the unwanted data in Power Query.
-Learned about some major practical DAX functions and measures.
-Learned about some major analytical visuals and reports.
+## **Key Insights from the Dashboard**  
 
+### **Overall Performance (4 Years)**  
+- **Total Revenue:** ₹985M  
+- **Total Profit Margin:** ₹24.7M (2.5%)  
+- **Total Sales Quantity:** 2M units  
+
+### **Yearly Insights (2020)**  
+- **Revenue:** ₹142M  
+- **Total Units Sold:** 350K  
+- **Profit:** ₹2.1M  
+
+### **Top Market Performers**  
+- **Delhi NCR:** Largest market by revenue (₹520M, 52.8% share) but low profit margin (2.3%).  
+- **Bhubaneswar (2020):** Highest profit margin (10.48%).  
+- **Mumbai:** Largest contributor to total profit (23.89%).  
+- **Bengaluru:** Lowest profit margin (-20.8%) and lowest total profit contribution (-0.3%).  
+
+### **Top Customers & Products**  
+- **Biggest Customer:** Electricalsara Stores (₹413M in 4 years).  
+- **Best-Selling Product:** Prod318 (₹69M revenue in 4 years).  
+- **Revenue by Product Type:**   
+  - **Distribution:** ₹494M  
+  - **Own Brand:** ₹494M  
+
+### **Trend Analysis**  
+- **June 2020:** Significant revenue drop compared to the previous year.  
+- **April 2020:** Lowest profit margin recorded.  
+
+## **Key Learnings**  
+- Gained hands-on experience working with **real-world business datasets**.  
+- Developed advanced **SQL querying** skills for analysis.  
+- Learned how to **connect databases to Power BI** and clean data efficiently using **Power Query**.  
+- Acquired practical knowledge of **DAX functions and measures**.  
+- Built expertise in **creating insightful visual reports** for business intelligence.  
