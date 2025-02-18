@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/8c2449d1-cd4e-44a4-b0c2-dea9e963a944)# **AtliQ Hardware Sales Analysis Project**
+**AtliQ Hardware Sales Analysis Project**
 
 ## **Problem Statement**  
 AtliQ Hardware, a company specializing in delivering computer hardware and peripherals to manufacturers, operates multiple branches across India. The sales director has been struggling to assess business performance due to declining sales. Whenever he reaches out to regional managers for updates, he encounters challenges—many managers find it difficult to interpret raw numerical data from Excel files. This lack of clarity contributes to frustration and hinders effective decision-making.  
@@ -9,8 +9,9 @@ To address this, the sales director decided to implement a **Power BI dashboard*
 ## **Project Planning with AIMS Grid**  
 Using the **AIMS Grid** project management tool, the team established the project's **purpose, key stakeholders, desired outcomes, and success criteria** to ensure a structured approach.  
 
-![Alt Text](![image](https://github.com/user-attachments/assets/1308285b-f447-4794-afe9-663b5145c5aa)
-)
+![AIMS GRID](![image](https://github.com/user-attachments/assets/1308285b-f447-4794-afe9-663b5145c5aa)
+![image](https://github.com/user-attachments/assets/8c2449d1-cd4e-44a4-b0c2-dea9e963a944)#
+
 
 
 ## **Steps Followed in This Project**  
